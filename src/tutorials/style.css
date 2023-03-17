@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+
+nav {
+  background-color: #47c571;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 40%;
+ 
+}
+.register{
+    position: relative;
+    background-color: #dbdf1d;
+    align-items: center;
+    padding: 10px;
+    
+    margin-left: 55%;
+
+    
+}
+.navbar1 {
+    background-image: url('./Rpppp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.searchbar {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 5px;
+    max-width: 80%;
+}
+.nav-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo {
+  width: 100px;
+  height: 50px;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  background-color: #9b9393;
+  color: #000000;
+}
+img{
+  width:100%;
+  border-radius: 12px;
+  height: 214px;
+  object-fit:cover;
+}
+body {
+  background-color: #eaeff1;
+  font-family: "Raleway", sans-serif;
+}
+#container{
+  margin:15vh auto;
+  max-width:75%;
+
+  position: absolute;
+  right:5px;
+  
+}
+.card{
+  background-color: white;
+  border:1px solid #bacdd8;
+  padding:8px;
+  border-radius: 12px;
+  margin-bottom: 25vh;
+}
+
+.comment{
+  padding: 4px 8px ;
+  border:1px solid #e5eaed;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color:#788697;
+  margin-right: 10px;
+
+
+}
+.ask{
+  padding: 4px 8px ;
+  border:1px solid #e5eaed;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color:#788697;
+  position:absolute;
+  right: 5px;
+}
+
+.name{
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+button{
+  border:none;
+  padding:12px 24px;
+  border-radius: 50px;
+
+  font-weight: 600;
+  color:#0077ff;
+  background-color: #e0efff;
+
+  margin:0 auto;
+  display:block;
+
+  cursor:pointer;
+
+}
+.card_details{
+  padding :16px 8px 8px 8px;
+
+}
+
+button:focus,
+button:hover,
+.comment:hover,
+.comment:focus,
+.ask:hover,
+.ask:focus{
+  background-color :#0077ff;
+  color:#e0efff;
+
+}
+.filter_form{
+  position: absolute;
+  left:5px;
+  margin-top: 30vh;
+  border:2px solid #020a0f;
+  max-width:20%;
+  
+}
+.filter{
+  max-width:20%;
+   
+}
+.input1{
+  margin: 10px;
+  padding: 7px;
+  display: block;
+  max-width:80%;
+  
+}
